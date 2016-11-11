@@ -762,7 +762,7 @@
               <!-- MOTIVO DE CONSULTA-->
               <div class="form-group">
                   <label>Motivo de consulta</label>
-                  <textarea class="form-control" rows="3" placeholder="Especificaciones breves ..."></textarea>
+                  <textarea class="form-control" rows="3" name="motivo_consulta" placeholder="Especificaciones breves ..."></textarea>
               </div>
               <!-- FIN MOTIVO DE CONSULTA-->
               <!-- INICIO INDICACIONES DE TRATAMIENTO-->
@@ -863,7 +863,7 @@
                 <!-- /.box-header -->
                 <div class="box-body pad">
               
-                    <textarea class="textarea" placeholder="Maximo de XXXX caracteres..." style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                    <textarea class="textarea" placeholder="Maximo de XXXX caracteres..." name="observaciones" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
               
                 </div>
               </div>
@@ -882,7 +882,7 @@
                 <!-- /.box-header -->
                 <div class="box-body pad">
               
-                    <textarea class="textarea" placeholder="Maximo de XXXX caracteres..." style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                    <textarea class="textarea" placeholder="Maximo de XXXX caracteres..." name="comentarios" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
               
                 </div>
               </div>

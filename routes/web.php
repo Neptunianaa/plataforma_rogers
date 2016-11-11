@@ -17,9 +17,16 @@ Route::get('/', function () {
     return view('editors');
 });
 
-Route::get('pauta_evaluacion', function () {
-    return view('formulario.pautaEvaluacion');
-});
+
+
+Route::get('pauta_evaluacion',[
+    'uses' => 'PautaEvalController@view',
+    'as' => 'PautaEvalView'
+]);
+
+
+Route::post('pauta_evaluacion','PautaEvalController@agregarPauta');
+
 
 Route::get('ficha_ingreso', function () {
     return view('formulario.fichaIngreso');

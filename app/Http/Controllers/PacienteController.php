@@ -21,7 +21,7 @@ class PacienteController extends Controller
         $carrera_paciente = new Carrera_paciente;
         $paciente = new Paciente;
         try {
-            $carrera_paciente ->nombre_carrera = $request->input('carrera');
+            $carrera_paciente -> nombre_carrera = $request->input('carrera');
             $carrera_paciente -> facultad = $request->input('facultad');
             $carrera_paciente -> ano_ingreso = $request->input('ano_ingreso');
             $carrera_paciente -> nivel_carrera = $request->input('nivel_carrera');
